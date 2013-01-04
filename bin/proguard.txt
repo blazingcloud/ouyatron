@@ -1,0 +1,17 @@
+# view AndroidManifest.xml #generated:32
+-keep class tv.ouya.sample.game.GameActivity { <init>(...); }
+
+# view res/layout/game.xml #generated:34
+-keep class tv.ouya.sample.game.GameView { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class tv.ouya.sample.game.MenuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class tv.ouya.sample.game.OptionsActivity { <init>(...); }
+
+# onClick res/layout/options.xml #generated:65
+# onClick res/layout/options.xml #generated:70
+# onClick res/layout/options.xml #generated:75
+-keepclassmembers class * { *** onLevelRadioButtonClicked(...); }
+

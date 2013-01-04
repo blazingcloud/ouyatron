@@ -1,0 +1,12 @@
+# .pairs - configuration for 'git pair'
+pairs:
+  # <initials>: <Firstname> <Lastname>[; <email-id>]
+  jt: Judy Tuan; judytuna
+  cjs: Curtis Schofield; ram9
+  fh: Fritz Huie; fritzhuie
+  pt: Peterson Trethewey; petersont
+email:
+  prefix: pair
+  domain: blazingcloud.net
+  # no_solo_prefix: true
+#global: true

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="/Users/blazingpair/workspace/android-adt/OUYA-ODK/Samples/game-sample" key="OUTSIDE_LOCATION"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>
