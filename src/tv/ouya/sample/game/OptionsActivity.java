@@ -38,8 +38,8 @@ public class OptionsActivity extends Activity {
     static private Map<Options.Level, RadioButton> levelToRadioButton;
     static private Map<RadioButton, Options.Level> radioButtonToLevel;
 
-    private static final String DEVELOPER_ID = "310a8f51-4d6e-4ae5-bda0-b93878e5f5d0";
-    private static final List<Purchasable> PRODUCT_IDENTIFIER_LIST = Arrays.asList(new Purchasable("level_alleyway"), new Purchasable("level_boxy"));
+//    private static final String DEVELOPER_ID = "310a8f51-4d6e-4ae5-bda0-b93878e5f5d0";
+//    private static final List<Purchasable> PRODUCT_IDENTIFIER_LIST = Arrays.asList(new Purchasable("level_alleyway"), new Purchasable("level_boxy"));
 
     /**
      * Called when the activity is first created.
@@ -61,11 +61,11 @@ public class OptionsActivity extends Activity {
         }
 
         // Initialize the UI
-      //  processReceipts(null);
-     //   toggleProgressIndicator(true);
+//        processReceipts(null);
+        toggleProgressIndicator(false);
 
-     //   OuyaFacade.getInstance().init(this, DEVELOPER_ID);
-      //  requestReceipts();
+//        OuyaFacade.getInstance().init(this, DEVELOPER_ID);
+//        requestReceipts();
 
         levelToRadioButton.get(Options.getInstance().getLevel()).setChecked(true);
 
@@ -130,9 +130,8 @@ public class OptionsActivity extends Activity {
     }
 
     private boolean needsPurchasing(RadioButton rb) {
-    		return false;/*
         String text = rb.getText().toString();
-        return text.endsWith(purchaseText);*/
+        return text.endsWith(purchaseText);
     }
 
     private String getProductIdForLevel(Options.Level level) {
